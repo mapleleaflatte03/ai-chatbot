@@ -1,0 +1,43 @@
+# Python AI Chatbot - Mitek
+# .gitignore
+
+# === Sensitive Files ===
+.env
+*.pid
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# === Logs & Runtime ===
+storage/log.jsonl
+storage/*.pid
+*.log
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Optional: Large Files ===
+# Uncomment nếu không muốn push data/index lên GitHub
+# data/faq.csv
+# storage/index.faiss
+# storage/meta.json
+
+# === Keep .env.example ===
+!.env.example
